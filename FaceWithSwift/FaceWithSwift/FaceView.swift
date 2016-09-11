@@ -7,25 +7,35 @@
 //
 
 import UIKit
-
 @IBDesignable
 class FaceView: UIView {
     
     @IBInspectable
-    var scale: CGFloat = 0.9
+    var scale: CGFloat = 0.9 {didSet {setNeedsDisplay()} }
     @IBInspectable
-    var mouthCurvature: Double = 1.0 //1 - smile, -1 - upset
+    var mouthCurvature: Double = 1.0 {didSet {setNeedsDisplay()} }
     @IBInspectable
-    var eyesOpen = true
+    var eyesOpen: Bool = false {didSet {setNeedsDisplay()} }
     @IBInspectable
-    var eyeBrowTilt: Double = -0.5 //-1 full furrow, 1 fully relaxed
+    var eyeBrowTilt: Double = -0.5 {didSet {setNeedsDisplay()} }
     @IBInspectable
-    var color: UIColor = UIColor.blueColor()
+    var color: UIColor = UIColor.blueColor() {didSet {setNeedsDisplay()} }
     @IBInspectable
-    var lineWidth: CGFloat = 5.0
+    var lineWidth: CGFloat = 5.0 {didSet {setNeedsDisplay()} }
+    
+    
+    func changeScale (recognizer: UIPinchGestureRecognizer) {
+        switch recognizer.state {
+        case .Changed, .Ended:
+            scale *= recognizer.scale
+            recognizer.scale = 1.0
+        default:
+            break
+        }
+    }
     
     private var skullRadius: CGFloat {
-        return  min(bounds.size.width, bounds.size.height)/2*scale
+        return min(bounds.size.width, bounds.size.height) / 2 * scale
     }
     private var skullCenter: CGPoint {
         return CGPoint(x: bounds.midX, y: bounds.midY)
@@ -40,7 +50,7 @@ class FaceView: UIView {
         static let SkullRadiusToBrowOffset: CGFloat = 5
     }
     
-     private enum Eye {
+    private enum Eye {
         case Left
         case Right
     }
@@ -88,15 +98,8 @@ class FaceView: UIView {
         let mouthHeight = skullRadius/Ratios.SkullRadiusToMouthHeight
         let mouthOffset = skullRadius/Ratios.SkullRadiusToMouthOffset
         
-        let mouthRect = CGRect(
-                            x: skullCenter.x - mouthWidth/2,
-                            y: skullCenter.y + mouthOffset,
-                            width: mouthWidth,
-                            height: mouthHeight
-        )
-        
-        
-        
+        let mouthRect = CGRect(x: skullCenter.x - mouthWidth/2,y: skullCenter.y + mouthOffset,
+                            width: mouthWidth, height: mouthHeight)
         let smileOffset = CGFloat(max(-1, min(mouthCurvature, 1))) * mouthRect.height
         let start = CGPoint(x: mouthRect.minX, y: mouthRect.minY)
         let end = CGPoint(x: mouthRect.maxX, y: mouthRect.minY)
