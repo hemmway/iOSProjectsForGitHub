@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A51D55171D9C3B4E003746A9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51D55161D9C3B4E003746A9 /* MapKit.framework */; };
+		A51D55191D9C3B59003746A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51D55181D9C3B59003746A9 /* CoreLocation.framework */; };
+		A51D551B1DA11CE5003746A9 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D551A1DA11CE5003746A9 /* PhotosViewController.swift */; };
+		A51D55211DA55B15003746A9 /* WonderPhotosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D55201DA55B15003746A9 /* WonderPhotosTableViewController.swift */; };
+		A51D55231DB38DA1003746A9 /* EditPhotosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D55221DB38DA1003746A9 /* EditPhotosTableViewController.swift */; };
+		A51D55251DB3CD43003746A9 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D55241DB3CD43003746A9 /* HelpViewController.swift */; };
+		A51D55271DB3D3B5003746A9 /* LoveWonders.html in Resources */ = {isa = PBXBuildFile; fileRef = A51D55261DB3D3B5003746A9 /* LoveWonders.html */; };
+		A51D552B1DB41AB8003746A9 /* WondersTableColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51D552A1DB41AB8003746A9 /* WondersTableColorsViewController.swift */; };
+		A55261D31D9721C6007585C6 /* Photos+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55261C91D9721C6007585C6 /* Photos+CoreDataProperties.swift */; };
+		A55261D41D9721C6007585C6 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55261CA1D9721C6007585C6 /* Photos.swift */; };
+		A55261D51D9721C6007585C6 /* Videos+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55261CB1D9721C6007585C6 /* Videos+CoreDataProperties.swift */; };
+		A55261D61D9721C6007585C6 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55261CC1D9721C6007585C6 /* Videos.swift */; };
+		A55261D71D9721C6007585C6 /* Wonders+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55261CD1D9721C6007585C6 /* Wonders+CoreDataProperties.swift */; };
+		A55261D81D9721C6007585C6 /* Wonders.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55261CE1D9721C6007585C6 /* Wonders.swift */; };
+		A55261D91D9721C6007585C6 /* Sounds+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55261CF1D9721C6007585C6 /* Sounds+CoreDataProperties.swift */; };
+		A55261DA1D9721C6007585C6 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55261D01D9721C6007585C6 /* Sounds.swift */; };
+		A55261DB1D9721C6007585C6 /* Settings+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55261D11D9721C6007585C6 /* Settings+CoreDataProperties.swift */; };
+		A55261DC1D9721C6007585C6 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55261D21D9721C6007585C6 /* Settings.swift */; };
+		A55261DE1D97323D007585C6 /* AddWonderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55261DD1D97323D007585C6 /* AddWonderViewController.swift */; };
+		A55261E01D97F550007585C6 /* ViewWonderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55261DF1D97F550007585C6 /* ViewWonderViewController.swift */; };
+		A55C9EC91D91C73F006172AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55C9EC81D91C73F006172AF /* AppDelegate.swift */; };
+		A55C9ECE1D91C73F006172AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55C9ECC1D91C73F006172AF /* Main.storyboard */; };
+		A55C9ED11D91C73F006172AF /* LoveWonders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A55C9ECF1D91C73F006172AF /* LoveWonders.xcdatamodeld */; };
+		A55C9ED31D91C73F006172AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55C9ED21D91C73F006172AF /* Assets.xcassets */; };
+		A55C9ED61D91C73F006172AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55C9ED41D91C73F006172AF /* LaunchScreen.storyboard */; };
+		A55C9EDE1D91D599006172AF /* WhereAmIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55C9EDD1D91D599006172AF /* WhereAmIViewController.swift */; };
+		A55C9EE01D91D5CD006172AF /* WondersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55C9EDF1D91D5CD006172AF /* WondersTableViewController.swift */; };
+		A55C9EE21D91D5DD006172AF /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55C9EE11D91D5DD006172AF /* SettingsTableViewController.swift */; };
+		A5E1C6DE1D986C3000A758F7 /* EditWonderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1C6DD1D986C3000A758F7 /* EditWonderViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A51D55161D9C3B4E003746A9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A51D55181D9C3B59003746A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A51D551A1DA11CE5003746A9 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		A51D55201DA55B15003746A9 /* WonderPhotosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WonderPhotosTableViewController.swift; path = ../WonderPhotosTableViewController.swift; sourceTree = "<group>"; };
+		A51D55221DB38DA1003746A9 /* EditPhotosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPhotosTableViewController.swift; sourceTree = "<group>"; };
+		A51D55241DB3CD43003746A9 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		A51D55261DB3D3B5003746A9 /* LoveWonders.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LoveWonders.html; sourceTree = "<group>"; };
+		A51D552A1DB41AB8003746A9 /* WondersTableColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WondersTableColorsViewController.swift; sourceTree = "<group>"; };
+		A55261C91D9721C6007585C6 /* Photos+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Photos+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A55261CA1D9721C6007585C6 /* Photos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		A55261CB1D9721C6007585C6 /* Videos+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Videos+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A55261CC1D9721C6007585C6 /* Videos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+		A55261CD1D9721C6007585C6 /* Wonders+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wonders+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A55261CE1D9721C6007585C6 /* Wonders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wonders.swift; sourceTree = "<group>"; };
+		A55261CF1D9721C6007585C6 /* Sounds+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sounds+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A55261D01D9721C6007585C6 /* Sounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		A55261D11D9721C6007585C6 /* Settings+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Settings+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A55261D21D9721C6007585C6 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		A55261DD1D97323D007585C6 /* AddWonderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWonderViewController.swift; sourceTree = "<group>"; };
+		A55261DF1D97F550007585C6 /* ViewWonderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewWonderViewController.swift; sourceTree = "<group>"; };
+		A55C9EC51D91C73F006172AF /* LoveWonders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveWonders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55C9EC81D91C73F006172AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A55C9ECD1D91C73F006172AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A55C9ED01D91C73F006172AF /* LoveWonders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoveWonders.xcdatamodel; sourceTree = "<group>"; };
+		A55C9ED21D91C73F006172AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A55C9ED51D91C73F006172AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A55C9ED71D91C73F006172AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55C9EDD1D91D599006172AF /* WhereAmIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhereAmIViewController.swift; sourceTree = "<group>"; };
+		A55C9EDF1D91D5CD006172AF /* WondersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WondersTableViewController.swift; sourceTree = "<group>"; };
+		A55C9EE11D91D5DD006172AF /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		A5E1C6DD1D986C3000A758F7 /* EditWonderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditWonderViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A55C9EC21D91C73F006172AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51D55191D9C3B59003746A9 /* CoreLocation.framework in Frameworks */,
+				A51D55171D9C3B4E003746A9 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A55C9EBC1D91C73F006172AF = {
+			isa = PBXGroup;
+			children = (
+				A51D55181D9C3B59003746A9 /* CoreLocation.framework */,
+				A51D55161D9C3B4E003746A9 /* MapKit.framework */,
+				A55261C91D9721C6007585C6 /* Photos+CoreDataProperties.swift */,
+				A55261CA1D9721C6007585C6 /* Photos.swift */,
+				A55261CB1D9721C6007585C6 /* Videos+CoreDataProperties.swift */,
+				A55261CC1D9721C6007585C6 /* Videos.swift */,
+				A55261CD1D9721C6007585C6 /* Wonders+CoreDataProperties.swift */,
+				A55261CE1D9721C6007585C6 /* Wonders.swift */,
+				A55261CF1D9721C6007585C6 /* Sounds+CoreDataProperties.swift */,
+				A55261D01D9721C6007585C6 /* Sounds.swift */,
+				A55261D11D9721C6007585C6 /* Settings+CoreDataProperties.swift */,
+				A55261D21D9721C6007585C6 /* Settings.swift */,
+				A55C9EC71D91C73F006172AF /* LoveWonders */,
+				A55C9EC61D91C73F006172AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A55C9EC61D91C73F006172AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A55C9EC51D91C73F006172AF /* LoveWonders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A55C9EC71D91C73F006172AF /* LoveWonders */ = {
+			isa = PBXGroup;
+			children = (
+				A55C9EC81D91C73F006172AF /* AppDelegate.swift */,
+				A55C9ECC1D91C73F006172AF /* Main.storyboard */,
+				A51D55241DB3CD43003746A9 /* HelpViewController.swift */,
+				A51D552A1DB41AB8003746A9 /* WondersTableColorsViewController.swift */,
+				A51D55221DB38DA1003746A9 /* EditPhotosTableViewController.swift */,
+				A51D55201DA55B15003746A9 /* WonderPhotosTableViewController.swift */,
+				A51D551A1DA11CE5003746A9 /* PhotosViewController.swift */,
+				A5E1C6DD1D986C3000A758F7 /* EditWonderViewController.swift */,
+				A55261DF1D97F550007585C6 /* ViewWonderViewController.swift */,
+				A55261DD1D97323D007585C6 /* AddWonderViewController.swift */,
+				A55C9EDD1D91D599006172AF /* WhereAmIViewController.swift */,
+				A55C9EDF1D91D5CD006172AF /* WondersTableViewController.swift */,
+				A55C9EE11D91D5DD006172AF /* SettingsTableViewController.swift */,
+				A51D55261DB3D3B5003746A9 /* LoveWonders.html */,
+				A55C9ED21D91C73F006172AF /* Assets.xcassets */,
+				A55C9ED41D91C73F006172AF /* LaunchScreen.storyboard */,
+				A55C9ED71D91C73F006172AF /* Info.plist */,
+				A55C9ECF1D91C73F006172AF /* LoveWonders.xcdatamodeld */,
+			);
+			path = LoveWonders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A55C9EC41D91C73F006172AF /* LoveWonders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55C9EDA1D91C73F006172AF /* Build configuration list for PBXNativeTarget "LoveWonders" */;
+			buildPhases = (
+				A55C9EC11D91C73F006172AF /* Sources */,
+				A55C9EC21D91C73F006172AF /* Frameworks */,
+				A55C9EC31D91C73F006172AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveWonders;
+			productName = LoveWonders;
+			productReference = A55C9EC51D91C73F006172AF /* LoveWonders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A55C9EBD1D91C73F006172AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ivan Kurhanskyi";
+				TargetAttributes = {
+					A55C9EC41D91C73F006172AF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A55C9EC01D91C73F006172AF /* Build configuration list for PBXProject "LoveWonders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A55C9EBC1D91C73F006172AF;
+			productRefGroup = A55C9EC61D91C73F006172AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A55C9EC41D91C73F006172AF /* LoveWonders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A55C9EC31D91C73F006172AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55C9ED61D91C73F006172AF /* LaunchScreen.storyboard in Resources */,
+				A55C9ED31D91C73F006172AF /* Assets.xcassets in Resources */,
+				A55C9ECE1D91C73F006172AF /* Main.storyboard in Resources */,
+				A51D55271DB3D3B5003746A9 /* LoveWonders.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A55C9EC11D91C73F006172AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55C9EDE1D91D599006172AF /* WhereAmIViewController.swift in Sources */,
+				A51D551B1DA11CE5003746A9 /* PhotosViewController.swift in Sources */,
+				A55261D91D9721C6007585C6 /* Sounds+CoreDataProperties.swift in Sources */,
+				A51D552B1DB41AB8003746A9 /* WondersTableColorsViewController.swift in Sources */,
+				A51D55211DA55B15003746A9 /* WonderPhotosTableViewController.swift in Sources */,
+				A55C9ED11D91C73F006172AF /* LoveWonders.xcdatamodeld in Sources */,
+				A55261E01D97F550007585C6 /* ViewWonderViewController.swift in Sources */,
+				A55261D81D9721C6007585C6 /* Wonders.swift in Sources */,
+				A55261DA1D9721C6007585C6 /* Sounds.swift in Sources */,
+				A55261D31D9721C6007585C6 /* Photos+CoreDataProperties.swift in Sources */,
+				A55C9EE21D91D5DD006172AF /* SettingsTableViewController.swift in Sources */,
+				A55261D71D9721C6007585C6 /* Wonders+CoreDataProperties.swift in Sources */,
+				A51D55251DB3CD43003746A9 /* HelpViewController.swift in Sources */,
+				A5E1C6DE1D986C3000A758F7 /* EditWonderViewController.swift in Sources */,
+				A55261DB1D9721C6007585C6 /* Settings+CoreDataProperties.swift in Sources */,
+				A55261DC1D9721C6007585C6 /* Settings.swift in Sources */,
+				A55C9EC91D91C73F006172AF /* AppDelegate.swift in Sources */,
+				A51D55231DB38DA1003746A9 /* EditPhotosTableViewController.swift in Sources */,
+				A55C9EE01D91D5CD006172AF /* WondersTableViewController.swift in Sources */,
+				A55261D61D9721C6007585C6 /* Videos.swift in Sources */,
+				A55261D41D9721C6007585C6 /* Photos.swift in Sources */,
+				A55261D51D9721C6007585C6 /* Videos+CoreDataProperties.swift in Sources */,
+				A55261DE1D97323D007585C6 /* AddWonderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A55C9ECC1D91C73F006172AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A55C9ECD1D91C73F006172AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A55C9ED41D91C73F006172AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A55C9ED51D91C73F006172AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A55C9ED81D91C73F006172AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A55C9ED91D91C73F006172AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A55C9EDB1D91C73F006172AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveWonders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemmway.LoveWonders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A55C9EDC1D91C73F006172AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveWonders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemmway.LoveWonders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A55C9EC01D91C73F006172AF /* Build configuration list for PBXProject "LoveWonders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55C9ED81D91C73F006172AF /* Debug */,
+				A55C9ED91D91C73F006172AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55C9EDA1D91C73F006172AF /* Build configuration list for PBXNativeTarget "LoveWonders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55C9EDB1D91C73F006172AF /* Debug */,
+				A55C9EDC1D91C73F006172AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A55C9ECF1D91C73F006172AF /* LoveWonders.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A55C9ED01D91C73F006172AF /* LoveWonders.xcdatamodel */,
+			);
+			currentVersion = A55C9ED01D91C73F006172AF /* LoveWonders.xcdatamodel */;
+			path = LoveWonders.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A55C9EBD1D91C73F006172AF /* Project object */;
+}
