@@ -19,6 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="5ta-GK-995">
                                 <rect key="frame" x="202" y="493" width="197" height="50"/>
                                 <subviews>
@@ -169,6 +170,22 @@
                         <outlet property="whereAmIMapView" destination="z1n-Kk-ckk" id="ZBT-9Q-ocY"/>
                         <outlet property="whereAmIWonderName" destination="3h6-ZR-Sor" id="eBO-vI-zzv"/>
                     </connections>
+=======
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, LoveWonders!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xpi-We-EzC">
+                                <rect key="frame" x="217" y="289" width="166" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xpi-We-EzC" firstAttribute="centerX" secondItem="qY8-hY-C4f" secondAttribute="centerX" id="GRy-5m-b4j"/>
+                            <constraint firstItem="Xpi-We-EzC" firstAttribute="centerY" secondItem="qY8-hY-C4f" secondAttribute="centerY" id="c1S-4G-Hge"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Where Am I" id="PVr-f2-oHK"/>
+>>>>>>> origin/master
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdJ-Eh-BtL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -187,7 +204,11 @@
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="q6S-3E-kMy" id="OK9-Qa-NN8">
+<<<<<<< HEAD
                                     <rect key="frame" x="0.0" y="0.0" width="533" height="44"/>
+=======
+                                    <rect key="frame" x="0.0" y="0.0" width="533" height="43.5"/>
+>>>>>>> origin/master
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DcJ-KO-6JX">
@@ -388,7 +409,11 @@
                                 <rect key="frame" x="0.0" y="92" width="600" height="461"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nIc-Kb-G8J" id="Xd5-ga-c1o">
+<<<<<<< HEAD
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="460"/>
+=======
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="460.5"/>
+>>>>>>> origin/master
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wonders_512" translatesAutoresizingMaskIntoConstraints="NO" id="HX2-yM-SPW">
@@ -809,7 +834,11 @@
                                         <rect key="frame" x="0.0" y="64" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l1N-2W-pSW" id="MLy-v5-a8F">
+<<<<<<< HEAD
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+=======
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+>>>>>>> origin/master
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Wonders Table Colors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RHV-r0-ovc">
@@ -829,7 +858,11 @@
                                         <rect key="frame" x="0.0" y="108" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="e1L-cZ-w10" id="Zh1-8J-ysB">
+<<<<<<< HEAD
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+=======
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+>>>>>>> origin/master
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="World Wonders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qwE-dg-dvw">
@@ -846,7 +879,11 @@
                                         <rect key="frame" x="0.0" y="152" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MGD-B0-ehE" id="Lvm-Qi-aj5">
+<<<<<<< HEAD
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+=======
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+>>>>>>> origin/master
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6eM-jB-CJb">
@@ -1115,11 +1152,18 @@
         <image name="phot_lib" width="29" height="29"/>
         <image name="phot_lib_ios" width="29" height="29"/>
         <image name="settings" width="29" height="29"/>
+<<<<<<< HEAD
         <image name="share" width="29" height="29"/>
+=======
+>>>>>>> origin/master
         <image name="star" width="29" height="29"/>
         <image name="wonders_512" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
+<<<<<<< HEAD
         <segue reference="GbG-C0-TRg"/>
+=======
+        <segue reference="n0P-vs-5Vc"/>
+>>>>>>> origin/master
     </inferredMetricsTieBreakers>
 </document>

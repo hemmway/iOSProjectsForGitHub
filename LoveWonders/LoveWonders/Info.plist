@@ -34,7 +34,10 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+<<<<<<< HEAD
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Please Allow LoveWonders to Locate You</string>
+=======
+>>>>>>> origin/master
 </dict>
 </plist>
