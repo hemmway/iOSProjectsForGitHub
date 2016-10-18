@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A52970FF1D8D7F3E0034798D /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52970FE1D8D7F3E0034798D /* EmotionsViewController.swift */; };
 		A52EA3D81D7CA52A00691D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EA3D71D7CA52A00691D43 /* AppDelegate.swift */; };
 		A52EA3DA1D7CA52A00691D43 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52EA3D91D7CA52A00691D43 /* FaceViewController.swift */; };
 		A52EA3DD1D7CA52A00691D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52EA3DB1D7CA52A00691D43 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A52970FE1D8D7F3E0034798D /* EmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionsViewController.swift; sourceTree = "<group>"; };
 		A52EA3D41D7CA52A00691D43 /* FaceWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52EA3D71D7CA52A00691D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A52EA3D91D7CA52A00691D43 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				A52EA3D91D7CA52A00691D43 /* FaceViewController.swift */,
 				A52EA3DB1D7CA52A00691D43 /* Main.storyboard */,
+				A52970FE1D8D7F3E0034798D /* EmotionsViewController.swift */,
 				A52EA3EE1D7CA6E900691D43 /* FaceView.swift */,
 				A5F189E91D82F05000753CFA /* FacialExpression.swift */,
 				A52EA3E91D7CA5A700691D43 /* Supporting Files */,
@@ -105,11 +108,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Ivan Kurhanskyi";
 				TargetAttributes = {
 					A52EA3D31D7CA52A00691D43 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -151,6 +155,7 @@
 			files = (
 				A52EA3DA1D7CA52A00691D43 /* FaceViewController.swift in Sources */,
 				A5F189EA1D82F05000753CFA /* FacialExpression.swift in Sources */,
+				A52970FF1D8D7F3E0034798D /* EmotionsViewController.swift in Sources */,
 				A52EA3D81D7CA52A00691D43 /* AppDelegate.swift in Sources */,
 				A52EA3EF1D7CA6E900691D43 /* FaceView.swift in Sources */,
 			);
@@ -192,8 +197,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -238,8 +245,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -258,6 +267,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -271,6 +281,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hemmway.FaceWithSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -282,6 +293,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hemmway.FaceWithSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
